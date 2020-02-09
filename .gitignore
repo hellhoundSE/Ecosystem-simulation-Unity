@@ -1,5 +1,8 @@
+ # Untracked files:
 Library/
 Logs/
 obj/
 Packages/
 *.meta
+.vs/*
+/metadata

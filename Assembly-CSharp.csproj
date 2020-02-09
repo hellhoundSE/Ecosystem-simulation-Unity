@@ -63,8 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BlockFactory.cs" />
+    <Compile Include="Assets\Scripts\Blocks\Grass.cs" />
+    <Compile Include="Assets\Scripts\Blocks\Sand.cs" />
+    <Compile Include="Assets\Scripts\Blocks\Water.cs" />
     <Compile Include="Assets\Scripts\LevelGenerator.cs" />
-    <Compile Include="Assets\Scripts\PerlinNoise.cs" />
+    <Compile Include="Assets\Scripts\Objects\Object.cs" />
+    <Compile Include="Assets\Scripts\Objects\Tree.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity Projects/Ecosystem/Ecosystem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
